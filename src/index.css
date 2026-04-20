@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Noto+Sans+Devanagari:wght@400;700;900&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --saffron: #FF6B00;
+  --saffron-light: #FF9A3C;
+  --saffron-dark: #CC4400;
+  --gold: #FFD700;
+  --gold-dark: #C8A400;
+  --deep: #1A0800;
+  --deep2: #0D0500;
+  --card-bg: rgba(255,140,0,0.08);
+  --card-border: rgba(255,140,0,0.28);
+  --text-primary: #FFF5E4;
+  --text-muted: rgba(255,245,228,0.6);
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background: var(--deep2);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+button { cursor: pointer; border: none; outline: none; font-family: inherit; }
+a { text-decoration: none; color: inherit; }
+
+.app-shell {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--deep2);
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Hide all scrollbars */
+* { scrollbar-width: none; }
+::-webkit-scrollbar { display: none; }

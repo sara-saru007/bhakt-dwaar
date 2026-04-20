@@ -1,0 +1,23 @@
+{
+  "parameters": {
+    "temple_1_live_id":     { "defaultValue": { "value": "GY3pRyiNyuA" } },
+    "temple_1_fallback_id": { "defaultValue": { "value": "m7SfQQ9WmWI" } },
+    "temple_2_live_id":     { "defaultValue": { "value": "wPN7-MrOv94" } },
+    "temple_2_fallback_id": { "defaultValue": { "value": "w2jPGtNrSqM" } },
+    "temple_3_live_id":     { "defaultValue": { "value": "jBT0LjGTO1A" } },
+    "temple_3_fallback_id": { "defaultValue": { "value": "rIGKMkOnJQE" } },
+    "temple_4_live_id":     { "defaultValue": { "value": "xXdcwtGQ_zI" } },
+    "temple_4_fallback_id": { "defaultValue": { "value": "DUcpv8NkoVE" } },
+    "temple_5_live_id":     { "defaultValue": { "value": "UtrboFo6U6g" } },
+    "temple_5_fallback_id": { "defaultValue": { "value": "ikWN4bh38y8" } },
+    "temple_6_live_id":     { "defaultValue": { "value": "e3gINhd28OY" } },
+    "temple_6_fallback_id": { "defaultValue": { "value": "lQukA3vYgTI" } },
+    "temple_7_live_id":     { "defaultValue": { "value": "gzv857BTcJM" } },
+    "temple_7_fallback_id": { "defaultValue": { "value": "GBjAKVFxK9U" } },
+    "temple_8_live_id":     { "defaultValue": { "value": "MmcXgQHi8WU" } },
+    "temple_8_fallback_id": { "defaultValue": { "value": "_y6UcdV0a1E" } },
+    "temple_9_live_id":     { "defaultValue": { "value": "t7gV9k0LJKo" } },
+    "temple_9_fallback_id": { "defaultValue": { "value": "49dxAA_rY8Q" } }
+  },
+  "version": {}
+}

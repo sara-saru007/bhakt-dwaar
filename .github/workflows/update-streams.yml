@@ -1,0 +1,28 @@
+name: Update Temple Stream IDs
+
+on:
+  schedule:
+    - cron: '0 * * * *'   # every hour at :00
+  workflow_dispatch:        # manual trigger from GitHub UI
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: scripts/package.json
+
+      - name: Install dependencies
+        run: npm install
+        working-directory: scripts
+
+      - name: Update Remote Config
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+        run: node update-streams.js
+        working-directory: scripts

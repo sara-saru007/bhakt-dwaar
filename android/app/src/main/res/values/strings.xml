@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">भक्त द्वार</string>
+    <string name="title_activity_main">भक्त द्वार</string>
+    <string name="package_name">app.vaomi.bhakti</string>
+    <string name="custom_url_scheme">app.vaomi.bhakti</string>
+</resources>
