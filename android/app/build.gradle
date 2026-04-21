@@ -6,7 +6,7 @@ android {
 
     signingConfigs {
         release {
-            storeFile     file("C:/Users/tanis/Downloads/bhaktdwaar-release.keystore")
+            storeFile     file(System.getenv("KEYSTORE_FILE") ?: "C:/Users/tanis/Downloads/bhaktdwaar-release.keystore")
             storePassword System.getenv("KEYSTORE_PASS") ?: "REPLACE_WITH_YOUR_PASSWORD"
             keyAlias      "bhaktdwaar"
             keyPassword   System.getenv("KEYSTORE_PASS") ?: "REPLACE_WITH_YOUR_PASSWORD"
